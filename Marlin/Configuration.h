@@ -472,6 +472,11 @@
   #define DEFAULT_Ki 1.54
   #define DEFAULT_Kd 76.55
 
+  // Ender-3 All Metal Swiss Hot End @ 245C
+  //#define DEFAULT_Kp 22.00
+  //#define DEFAULT_Ki 1.57
+  //#define DEFAULT_Kd 77.00
+
   // Ultimaker
   //#define DEFAULT_Kp 22.2
   //#define DEFAULT_Ki 1.08
