@@ -717,7 +717,7 @@
  * Override with M92
  *                                      X, Y, Z, E0 [, E1[, E2...]]
  */
-#define DEFAULT_AXIS_STEPS_PER_UNIT   { 80, 80, 400, 93 }
+#define DEFAULT_AXIS_STEPS_PER_UNIT   { 80, 80, 400, 397.5 }
 
 /**
  * Default Max Feed Rate (mm/s)
@@ -920,7 +920,7 @@
  *
  * Specify a Probe position as { X, Y, Z }
  */
-#define NOZZLE_TO_PROBE_OFFSET { -40, -13, 0 }
+#define NOZZLE_TO_PROBE_OFFSET { -43, 0, 0 }
 
 // Certain types of probes need to stay away from edges
 #define MIN_PROBE_EDGE 20
@@ -1301,8 +1301,8 @@
 
 // Manually set the home position. Leave these undefined for automatic settings.
 // For DELTA this is the top-center of the Cartesian print volume.
-#define MANUAL_X_HOME_POS 2.3
-#define MANUAL_Y_HOME_POS -9.31
+#define MANUAL_X_HOME_POS -2.5
+#define MANUAL_Y_HOME_POS -15.5
 //#define MANUAL_Z_HOME_POS 0
 
 // Use "Z Safe Homing" to avoid homing with a Z probe outside the bed area.
