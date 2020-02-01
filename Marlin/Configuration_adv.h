@@ -2833,7 +2833,7 @@
  * See https://reprap.org/wiki/G-code#Action_commands
  * Common commands ........ poweroff, pause, paused, resume, resumed, cancel
  * G29_RETRY_AND_RECOVER .. probe_rewipe, probe_failed
- *
+ "*
  * Some features add reason codes to extend these commands.
  *
  * Host Prompt Support enables Marlin to use the host for user prompts so
