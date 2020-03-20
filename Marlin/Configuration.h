@@ -1592,7 +1592,7 @@
 //
 // Note: Usually sold with a white PCB.
 //
-//#define REPRAP_DISCOUNT_SMART_CONTROLLER
+#define REPRAP_DISCOUNT_SMART_CONTROLLER
 
 //
 // Original RADDS LCD Display+Encoder+SDCardReader
@@ -2021,13 +2021,13 @@
 #define NEOPIXEL_LED
 #if ENABLED(NEOPIXEL_LED)
 #define NEOPIXEL_TYPE (NEO_GRB + NEO_KHZ800)
-#define NEOPIXEL_PIXELS 15      // Number of LEDs in the strip, larger of 2 strips if 2 neopixel strips are used
+#define NEOPIXEL_PIXELS 5      // Number of LEDs in the strip, larger of 2 strips if 2 neopixel strips are used
 #define NEOPIXEL_IS_SEQUENTIAL  // Sequential display for temperature change - LED by LED. Disable to change all LEDs at once.
 #define NEOPIXEL_BRIGHTNESS 55 // Initial brightness (0-255)
 #define NEOPIXEL_STARTUP_TEST   // Cycle through colors at startup
 
 // Use a single Neopixel LED for static (background) lighting
-#define NEOPIXEL_BKGD_LED_INDEX  7               // Index of the LED to use
+#define NEOPIXEL_BKGD_LED_INDEX  3               // Index of the LED to use
 #define NEOPIXEL_BKGD_COLOR { 255, 255, 255, 0 } // R, G, B, W
 #endif
 
