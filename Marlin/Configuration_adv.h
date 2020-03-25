@@ -2784,7 +2784,7 @@
 #define WIFISUPPORT   // @droxey
 #if ENABLED(WIFISUPPORT)
   #define WIFI_SSID "bitnet"
-  #define WIFI_PWD  "0ddb321816"
+  #define WIFI_PWD  ""
   #define WEBSUPPORT        // Start a webserver with auto-discovery
   #define OTASUPPORT        // Support over-the-air firmware updates
 #endif
