@@ -1,0 +1,3 @@
+[submodule ".pio/libdeps/STM32F103RC_bigtree_512K/Adafruit"]
+	path = .pio/libdeps/STM32F103RC_bigtree_512K/Adafruit
+	url = https://github.com/CommandoreBombardiero/Adafruit_NeoPixel
